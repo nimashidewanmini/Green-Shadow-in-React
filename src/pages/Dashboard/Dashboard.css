@@ -1,0 +1,136 @@
+/* General Container Styling */
+.container-fluid {
+    background-color: #c7f367;
+    padding: 20px;
+}
+
+h3.h4 {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #c7f367;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(199, 243, 103);
+    background-color: #c7f367;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #000000, #5f605f);
+    color: #c7f367;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-header p {
+    margin: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #e0e0e0;
+}
+
+.card-header h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.icon i {
+    opacity: 0.8;
+}
+
+/* Horizontal Line Styling */
+.hr {
+    margin: 0;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #e0e0e0, transparent);
+}
+
+/* Card Footer */
+.card-footer {
+    padding: 15px;
+    background-color: #f9f9f9;
+    font-size: 0.9rem;
+}
+
+.card-footer span {
+    font-weight: bold;
+}
+
+.card-footer .text-success {
+    color: #28a745;
+}
+
+.card-footer .text-danger {
+    color: #dc3545;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-header h4 {
+        font-size: 1.3rem;
+    }
+
+    .card-footer {
+        text-align: center;
+    }
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 20px 0;
+    background-color: #e9f7ef;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Stats Section */
+.stats-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Chart Section */
+.bar-chart {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
